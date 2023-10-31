@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays its own PID.
 
-ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
+#ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
+ps aux
